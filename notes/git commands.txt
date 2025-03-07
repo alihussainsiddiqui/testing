@@ -1,0 +1,44 @@
+git config --global user.name "...."
+git config --global user.email "...."
+git config --list
+
+echo "# testing_repo" >> README.md
+git init
+git add README.md / git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Noorunnisa7/testing_repo.git
+git push -u origin main
+--------------------------
+git status
+--------------------------
+git add .
+git commit -m "second commit"
+git branch -M main
+git push -u origin main
+
+
+bash-> clear 
+cmd -> cls
+
+M-> modified 
+U-> Untracked file
+
+control panel>credential manager> window credentails
+
+
+git log      ---- check commits
+git branch    ---- check branch
+git branch branch_name    ---- create branch 
+git checkout branch_name   ---- switch branch
+git merge branchname
+git push orgin branch_name 
+git branch -d branch_name        ---- delete branch locally
+git branch --delete branch_name  --- delete branch on github
+
+
+
+main/master 
+
+website (frontend)
+Admin panel (backend)
